@@ -20,7 +20,7 @@ const APICalls = () => {
 
   return (
     <div>
-      {/* <div
+      <div
         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
       >
         {videoList.map((video) => {
@@ -34,7 +34,7 @@ const APICalls = () => {
             </div>
           );
         })}
-      </div> */}
+      </div>
     </div>
   );
 };
