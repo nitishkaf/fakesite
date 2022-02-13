@@ -62,6 +62,7 @@ const Home = (video) => {
       </StyledBody>
       <TextSection>
         <h2>Ready to have your cake and eat it too?</h2>
+        <br />
         <p>
           Start by designing the experience you have in mind. We'll guide you
           through each step. If your experience meets the quality standards,

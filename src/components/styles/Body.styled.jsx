@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledBody = styled.div`
   display: flex;
-  align-items: center;
+  justify-content: center;
   background-color: #fff;
   margin: 10px 30px;
   padding: 60px;
@@ -28,4 +28,16 @@ export const TextSection = styled.div`
   margin: 10px 30px;
   padding: 60px;
   text-align: center;
+
+  h2 {
+    font-size: 36px;
+    color: #4c4c51;
+    line-height: 28px;
+  }
+
+  p {
+    font-size: 22px;
+    line-height: 28px;
+    color: #4c4c51;
+  }
 `;

@@ -16,6 +16,37 @@ A FakeSite built in `react` utilizing `styled-components` and `axios` for fetchi
 
 ## Challenges Faced
 
-The API contains raw html tags that React would not render because of XSS.
+The API contains raw html tags as strings that React would not render because of XSS.
 
 In order to render html tags that was in `description` from the API, I had to use `dangerouslySetInnerHTML`. I'm curious if there is any other possible solution to approaching this issue.
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/developernit/fakesite.git
+```
+
+Go to the project directory
+
+```bash
+  cd fakesite
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Final Product
+
+![screenshot](screenshot.png)
+

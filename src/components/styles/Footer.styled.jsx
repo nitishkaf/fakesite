@@ -91,3 +91,7 @@ export const SiteMapLink = styled(Link)`
     color: #4c4c51;
   }
 `;
+
+export const Logo = styled.img`
+  float: left;
+`;

@@ -10,8 +10,10 @@ import {
   EndOfFooter,
   EndOfFooterWrap,
   SiteMapLink,
+  Logo,
 } from "./styles/Footer.styled";
-import { Logo } from "./styles/Navigation.styled";
+
+
 import FooterLogo from "./assets/logo.png";
 const Footer = () => {
   return (
