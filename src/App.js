@@ -5,7 +5,7 @@ import Help from "./pages/Help";
 import Account from "./pages/Account";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import APICalls from "./components/APICalls";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
           <Route path="/help" element={<Help />} />
         </Routes>
       </BrowserRouter>
-      <APICalls />
+      <Footer />
     </div>
   );
 };

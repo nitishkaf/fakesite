@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.section`
-  height: auto;
+  height: 60vh;
   background-position: center;
   background-size: cover;
   padding-top: clamp(50px, 25vh, 200px);
