@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Help from "./pages/Help";
 import Account from "./pages/Account";
@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <Router>
         <Navbar />
         <Header />
         <Routes>
@@ -18,8 +18,8 @@ const App = () => {
           <Route path="/account" element={<Account />} />
           <Route path="/help" element={<Help />} />
         </Routes>
-      </BrowserRouter>
-      <Footer />
+        <Footer />
+      </Router>
     </div>
   );
 };
